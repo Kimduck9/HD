@@ -219,9 +219,12 @@ img{
     line-height: 1.6;
 }
 .promise ul{
-    margin: 0 auto;
-    width:600px;
+    /* margin: 0 auto; */
+    width: 100%;
     margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .promise ul li{
     float: left;
